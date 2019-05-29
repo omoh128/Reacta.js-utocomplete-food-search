@@ -1,0 +1,71 @@
+@import "./common.scss";
+
+html,
+body,
+#root,
+.page,
+.App {
+  width: 100%;
+  height: 100%;
+}
+
+.page-container {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header {
+  margin-bottom: 3em;
+  margin-top: 1em;
+  font-size: 28px;
+  font-family: Oxygen, sans-serif;
+  color: #666b6b;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.warning {
+  color: $base-color;
+  font-size: 20px;
+}
